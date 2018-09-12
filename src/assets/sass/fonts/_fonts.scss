@@ -1,0 +1,27 @@
+/**
+ * @license
+ * This is Just an example of how to include fonts.
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ */
+
+@font-face {
+  font-family: 'Avenir Black';
+  src: url('../fonts/Avenir/AvenirLTStd-Black.eot');
+  src: url('../fonts/Avenir/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Avenir/AvenirLTStd-Black.woff2') format('woff2'),
+       url('../fonts/Avenir/AvenirLTStd-Black.woff') format('woff'),
+       url('../fonts/Avenir/AvenirLTStd-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir Light';
+  src: url('../fonts/Avenir/AvenirLTStd-Light.eot');
+  src: url('../fonts/Avenir/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Avenir/AvenirLTStd-Light.woff2') format('woff2'),
+       url('../fonts/Avenir/AvenirLTStd-Light.woff') format('woff'),
+       url('../fonts/Avenir/AvenirLTStd-Light.ttf') format('truetype');
+}

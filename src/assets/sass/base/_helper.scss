@@ -1,0 +1,83 @@
+/* Helper Classes =====================================
+======================================================= */
+* {
+  font-family: $font-family-base, sans-serif;
+}
+
+.hide{
+  display: none!important;
+}
+
+.show {
+  display:block !important;
+}
+
+.show-in{
+  display:inline-block!important;
+}
+
+.line-break{
+  display: block;
+  clear:both;
+}
+.line-break-mobile{
+  display:none;
+  @media(max-width: 767px){
+    display:block;
+  }
+}
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.lock-scroll{
+  overflow: hidden;
+}
+
+.cleardiv{
+  display: block;
+  height: 0;
+  clear:both;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.pink {
+  color: $pink;
+}
+
+.in-image {
+    position: absolute;
+    bottom: 20vw;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.bg-purple {
+  background: $light-purple;
+}
+
+.invible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.float-up {
+  position: absolute;
+}
+
+.show-flex{
+  display: flex !important;
+}

@@ -1,0 +1,25 @@
+
+/* Collapse div component ==+==========================
+======================================================= */
+
+.collapse-block {
+  .header {
+    min-height: 40px;
+    width: 100%;
+    h2 {
+      a {
+        text-decoration: none;
+        color: $pink;
+        font-family: $font-family-title, sans-serif;
+        font-weight: 900;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .content {
+    background: $white;
+    h3 {
+      color: $pink;
+    }
+  }
+}
